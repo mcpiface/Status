@@ -6749,8 +6749,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
-<part name="D2" library="ThingySticks" deviceset="LED" device="1206-BOTTOM-1.6MM"/>
-<part name="D3" library="ThingySticks" deviceset="LED" device="1206-BOTTOM-1.6MM"/>
+<part name="D2" library="ThingySticks" deviceset="LED" device="LED-1206-BOTTOM-2.0MM-GREEN"/>
+<part name="D3" library="ThingySticks" deviceset="LED" device="LED-1206-BOTTOM-2.0MM-RED"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>

@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -168,7 +168,6 @@
 <dimension x1="14" y1="70.5" x2="28.5" y2="68" x3="21.25" y3="74" textsize="1.778" layer="47" dtype="horizontal"/>
 <wire x1="-1.5" y1="76" x2="100" y2="76" width="0.4064" layer="49"/>
 <wire x1="-3.5" y1="12" x2="100" y2="12" width="0.4064" layer="49"/>
-<text x="43.1" y="15.1" size="1.778" layer="1" ratio="15">PiBlade McStatus PiFace</text>
 <text x="86.3225" y="17.5925" size="1.778" layer="26" ratio="15" rot="MR0">http://github.com/McPiFace/Status</text>
 <circle x="22" y="82" radius="5" width="0" layer="41"/>
 <circle x="22" y="6" radius="5" width="0" layer="41"/>
@@ -190,7 +189,7 @@
 <text x="81.6225" y="5.4925" size="1.778" layer="26" ratio="15" rot="MR0">v2.0</text>
 <text x="86.0225" y="11.9925" size="1.778" layer="26" ratio="15" rot="MR0">S.Harrison
 9 Feb 2019</text>
-<text x="56.6225" y="80.8925" size="2.54" layer="26" ratio="15" rot="MR0">MyPiFace.com</text>
+<text x="56.6225" y="80.8925" size="2.54" layer="26" ratio="15" rot="MR0">McPiFace.com</text>
 <text x="73.69" y="28.9" size="1.27" layer="26" ratio="15" rot="MR0">3v3</text>
 <text x="44" y="64.5" size="1.016" layer="26" ratio="15" rot="MR0">GPA7</text>
 <text x="44.1" y="61.5" size="1.016" layer="26" ratio="15" rot="MR0">GPA6</text>
@@ -314,56 +313,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="ThingySticks">
 <packages>
-<package name="LED-1206-BOTTOM-1.6MM">
-<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
-
-1206, surface mount. 
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.127" layer="49"/>
-<wire x1="-2.4" y1="0" x2="-1.6" y2="0" width="0.127" layer="49"/>
-<wire x1="1.6" y1="0" x2="2.4" y2="0" width="0.127" layer="49"/>
-<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.127" layer="49"/>
-<wire x1="-0.381" y1="0" x2="-0.381" y2="0.635" width="0.127" layer="49"/>
-<wire x1="-0.381" y1="0.635" x2="0.254" y2="0" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="49"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="0.635" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-0.635" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="1.27" y2="0" width="0.127" layer="49"/>
-<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="51"/>
-<smd name="A" x="-1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
-<smd name="C" x="1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
-<hole x="0" y="0" drill="1.6"/>
-<polygon width="0" layer="51">
-<vertex x="1.1" y="-0.5"/>
-<vertex x="1.1" y="0.5"/>
-<vertex x="1.6" y="0.5"/>
-<vertex x="1.6" y="0.25" curve="90"/>
-<vertex x="1.4" y="0.05"/>
-<vertex x="1.4" y="-0.05" curve="90"/>
-<vertex x="1.6" y="-0.25"/>
-<vertex x="1.6" y="-0.5"/>
-</polygon>
-<polygon width="0" layer="51">
-<vertex x="-1.1" y="0.5"/>
-<vertex x="-1.1" y="-0.5"/>
-<vertex x="-1.6" y="-0.5"/>
-<vertex x="-1.6" y="-0.25" curve="90"/>
-<vertex x="-1.4" y="-0.05"/>
-<vertex x="-1.4" y="0.05" curve="90"/>
-<vertex x="-1.6" y="0.25"/>
-<vertex x="-1.6" y="0.5"/>
-</polygon>
-<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
-</package>
 <package name="TACTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST">
 <wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
 <wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
@@ -671,20 +620,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="dirt_cheap_dirty_boards.v1">
+<designrules name="dirt_cheap_dirty_boards.v1.1">
+<description language="de">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Min width/Spacing: 6/6mil
+&lt;br&gt;Min diameter of finished hole 12mil</description>
 <description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
 &lt;br&gt;
-&lt;br&gt;Min width/Spacing: 5/5mil
+&lt;br&gt;Min width/Spacing: 6/6mil
+&lt;br&gt;Min diameter of finished hole 12mil</description>
+<description language="zh">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;Min width/Spacing: 6/6mil
 &lt;br&gt;Min diameter of finished hole 12mil</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="0mil"/>
@@ -693,7 +650,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
+<param name="msWidth" value="6mil"/>
 <param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -842,14 +799,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </autorouter>
 <elements>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="44" y="6" rot="MR0"/>
-<element name="D2" library="ThingySticks" package="LED-1206-BOTTOM-1.6MM" value="" x="4" y="59" smashed="yes" rot="MR90">
+<element name="D2" library="ThingySticks" package="LED-1206-BOTTOM-2.0MM" value="" x="4" y="59" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="2.73" y="59" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
+<attribute name="COLOR" value="Green" x="4" y="59" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="FARNELL" value="2217905" x="4" y="59" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="FORWARD_VOLTAGE" value="2.1" x="4" y="59" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D3" library="ThingySticks" package="LED-1206-BOTTOM-1.6MM" value="" x="10" y="59" smashed="yes" rot="MR90">
+<element name="D3" library="ThingySticks" package="LED-1206-BOTTOM-2.0MM" value="" x="10" y="59" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="8.73" y="59" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
+<attribute name="COLOR" value="Hyper Red" x="10" y="59" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="FARNELL" value="2217903" x="10" y="59" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="FORWARD_VOLTAGE" value="1.95" x="10" y="59" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0805" value=" " x="10" y="53.3" smashed="yes" rot="MR90">
-<attribute name="PROD_ID" value=" " x="10" y="53.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="R1" library="SparkFun-Resistors" package="0805" value=" " x="10" y="53.4" smashed="yes" rot="MR90">
+<attribute name="PROD_ID" value=" " x="10" y="53.4" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0805" value=" " x="4" y="53.4" smashed="yes" rot="MR90">
 <attribute name="PROD_ID" value=" " x="4" y="53.4" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -858,7 +821,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="J1" library="McPiFace" package="JST-4-SH-1.0MM-SIDE" value="MC_PI_FACE_CONNECTORS_LEDSSIDE" x="6.8" y="49.8" smashed="yes" rot="MR0">
 <attribute name="MFG" value="SM04B-SRSS-TB(LF)(SN)" x="6.8" y="49.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="1830839" x="6.8" y="49.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="7.197" y="46.341" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="D4" library="ThingySticks" package="LED-1206-BOTTOM-2.0MM" value="GREEN" x="37.5" y="65" smashed="yes" rot="MR0">
 <attribute name="FARNELL" value="2217905" x="37.5" y="65" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1035,7 +997,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="N$4">
 <contactref element="D3" pad="A"/>
 <contactref element="R1" pad="2"/>
-<wire x1="10" y1="54.2" x2="10" y2="57.2" width="0.3048" layer="16"/>
+<wire x1="10" y1="54.3" x2="10" y2="57.2" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R1" pad="1"/>
@@ -1043,7 +1005,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="7.3" y1="49.8" x2="7.3" y2="52" width="0.3048" layer="16"/>
 <wire x1="7.3" y1="52" x2="7.6" y2="52.3" width="0.3048" layer="16"/>
 <wire x1="7.6" y1="52.3" x2="9.6" y2="52.3" width="0.3048" layer="16"/>
-<wire x1="9.6" y1="52.3" x2="10" y2="52.4" width="0.3048" layer="16"/>
+<wire x1="9.6" y1="52.3" x2="10" y2="52.5" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="R2" pad="1"/>
@@ -1324,24 +1286,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 </signals>
 <errors>
-<approved hash="18,29,f104cec4ccd5f315"/>
-<approved hash="18,29,991c8edc8cd59b15"/>
-<approved hash="18,29,de832f69d1ed2007"/>
-<approved hash="18,29,3acfcb25d1f1201b"/>
-<approved hash="18,29,3b8bca61d1e5200f"/>
-<approved hash="18,29,5fcfae25a9f1581b"/>
-<approved hash="18,29,268fd765d591247b"/>
-<approved hash="18,29,200bd1e1d5e5240f"/>
+<approved hash="18,29,581e33f437fe5c14"/>
+<approved hash="18,29,d01f3bf53fe1d40b"/>
 <approved hash="18,29,3ec3cf29d1ad2047"/>
 <approved hash="18,29,5f8fae65d15120bb"/>
+<approved hash="18,29,3acfcb25d1f1201b"/>
+<approved hash="18,29,de832f69d1ed2007"/>
+<approved hash="18,29,268fd765d591247b"/>
+<approved hash="18,29,200bd1e1d5e5240f"/>
+<approved hash="18,29,3b8bca61d1e5200f"/>
+<approved hash="18,29,5fcfae25a9f1581b"/>
 <approved hash="18,30,ed6f3323581359d9"/>
 <approved hash="18,30,8305ceb4cc5e24a2"/>
 <approved hash="18,30,448e9a51e02ab29e"/>
 <approved hash="18,30,ccd1bb520462c29f"/>
-<approved hash="4,16,5e16b1edf8c11732"/>
-<approved hash="4,16,a83a47d90ef5e11e"/>
-<approved hash="4,16,e23545ce8ce3db10"/>
-<approved hash="4,16,641933fafad75d3c"/>
+<approved hash="4,16,95a4b0b27f52fa43"/>
+<approved hash="4,16,ba9fc78908fed5ef"/>
+<approved hash="4,16,eea1e3b144c529d7"/>
+<approved hash="4,16,699cfc8c5b6aae78"/>
 <approved hash="4,16,4763e93e1469b83c"/>
 <approved hash="4,16,491de29c1fae4ace"/>
 <approved hash="4,16,87e029c9caea7aa3"/>
@@ -1358,12 +1320,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="4,16,c1f7036efe1a3d23"/>
 <approved hash="4,16,edb33382cec61057"/>
 <approved hash="4,16,0391c1dc22a4fea1"/>
-<approved hash="19,16,3571eafcdb07e774"/>
-<approved hash="19,16,6e828e40dda7de9b"/>
-<approved hash="19,16,33716ae9bc13bc74"/>
-<approved hash="19,16,ee82885486b2b99b"/>
-<approved hash="19,16,3972eed5692d7177"/>
-<approved hash="19,16,6a81826a4b8e6c98"/>
+<approved hash="19,16,2ac72e4bb147b5c7"/>
+<approved hash="19,16,3a0a3f4eec42e90a"/>
+<approved hash="19,16,9fd2ab5f96528ed2"/>
+<approved hash="19,16,011e185b69575c1f"/>
+<approved hash="19,16,58ea7466cb6ec7ee"/>
+<approved hash="19,16,48274563b66b9b23"/>
 </errors>
 </board>
 </drawing>
