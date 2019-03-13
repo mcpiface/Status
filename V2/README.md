@@ -12,13 +12,13 @@ The connection uses the McPi I2C 6 Pin JST SH connection (1:1 connection with th
 
 ![Status Board Usage](V2/Images/NetworkStatusExample.jpg)
 
-![I2C Wiring](V2/Images/I2C-Wiring.jpg)
+![I2C Wiring](Images/I2C-Wiring.jpg)
 
-![I2C Wiring](V2/Images/I2C-Wiring2.jpg)
+![I2C Wiring](Images/I2C-Wiring2.jpg)
 
-![Basic Layout](V2/Images/Basic.jpg)
+![Basic Layout](Images/Basic.jpg)
 
-![Schematic](V2/Images/Schematic.png)
+![Schematic] (Images/Schematic.png)
 
 
 ## Examples
