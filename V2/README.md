@@ -10,7 +10,7 @@ This version uses the MCP23017 with The Pi's I2C.
 
 The connection uses the McPi I2C 6 Pin JST SH connection (1:1 connection with the first 6 pins of the Raspberry Pi second row of pins on the 40 pin header).
 
-![Status Board Usage](V2/Images/NetworkStatusExample.jpg)
+![Status Board Usage](Images/NetworkStatusExample.jpg)
 
 ![I2C Wiring](Images/I2C-Wiring.jpg)
 
