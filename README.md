@@ -7,7 +7,7 @@ A status board in the McPiFace series, intended to fit the 19" rack frame as a q
 Version 2: Uses MCP23017 with The Pi's I2C. Uses the McPi I2C 6 Pin JST SH connection
 https://github.com/mcpiface/Status/tree/master/V2
 
-![V2 Status Board](https://github.com/mcpiface/Status/tree/master/V2/Images/NetworkStatusExample.png)
+![V2 Status Board](https://github.com/mcpiface/Status/tree/master/V2/Images/NetworkStatusExample.jpg)
 
 
 Version 1: Needs 3x connectors and 15 GPIO on Pi. Uses Pi GPIOs
