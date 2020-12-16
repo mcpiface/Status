@@ -1,0 +1,43 @@
+Partlist
+
+Exported from McPiFace-Status-V2.brd at 16/02/2019 17:04
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                                                        Package                                Library            Position (mm)         Orientation
+
+A0       JUMPER-SMT_2_NC_TRACE_SILK                                   SMT-JUMPER_2_NC_TRACE_SILK             SparkFun-Jumpers   (55.4 27.5)           MR90
+A1       JUMPER-SMT_2_NC_TRACE_SILK                                   SMT-JUMPER_2_NC_TRACE_SILK             SparkFun-Jumpers   (57.7 27.5)           MR90
+A2       JUMPER-SMT_2_NC_TRACE_SILK                                   SMT-JUMPER_2_NC_TRACE_SILK             SparkFun-Jumpers   (60 27.5)             MR90
+D2                                                                    LED-1206-BOTTOM-2.0MM                  ThingySticks       (4 59)                MR90
+D3                                                                    LED-1206-BOTTOM-2.0MM                  ThingySticks       (10 59)               MR90
+D4       GREEN                                                        LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 65)             MR0
+D5       RED                                                          LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 62)             MR0
+D6       GREEN                                                        LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 52)             MR0
+D7       RED                                                          LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 49)             MR0
+D8       GREEN                                                        LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 39)             MR0
+D9       RED                                                          LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 36)             MR0
+D10      GREEN                                                        LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 26)             MR0
+D11      RED                                                          LED-1206-BOTTOM-2.0MM                  ThingySticks       (37.5 23)             MR0
+IC1      MCP23017SO                                                   SO28W                                  McPiFace           (60.2 40.9)           MR270
+J1       MC_PI_FACE_CONNECTORS_LEDSSIDE                               JST-4-SH-1.0MM-SIDE                    McPiFace           (6.8 49.8)            MR0
+R1                                                                    0805                                   SparkFun-Resistors (10 53.4)             MR90
+R2                                                                    0805                                   SparkFun-Resistors (4 53.4)              MR90
+R3                                                                    0805                                   SparkFun-Resistors (68.1 31.8)           MR90
+R4       1k                                                           0805                                   SparkFun-Resistors (45.8 65)             MR0
+R5       1k                                                           0805                                   SparkFun-Resistors (45.8 62)             MR0
+R6       1k                                                           0805                                   SparkFun-Resistors (45.8 52)             MR0
+R7       1k                                                           0805                                   SparkFun-Resistors (45.8 39)             MR0
+R8       1k                                                           0805                                   SparkFun-Resistors (45.8 26)             MR0
+R9                                                                    0805                                   SparkFun-Resistors (68.1 36.2)           MR270
+R10      1k                                                           0805                                   SparkFun-Resistors (45.8 49)             MR0
+R11      1k                                                           0805                                   SparkFun-Resistors (45.8 36)             MR0
+R12      1k                                                           0805                                   SparkFun-Resistors (45.8 23)             MR0
+S1       MOMENTARY-SWITCH-SPSTTACKTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST TACTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST ThingySticks       (81 63.5)             R0
+S2       MOMENTARY-SWITCH-SPSTTACKTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST TACTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST ThingySticks       (81 50.5)             R0
+S3       MOMENTARY-SWITCH-SPSTTACKTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST TACTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST ThingySticks       (81 37.5)             R0
+S4       MOMENTARY-SWITCH-SPSTTACKTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST TACTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST ThingySticks       (81 24.5)             R0
+S5       MOMENTARY-SWITCH-SPSTTACKTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST TACTILE_SWITCH_PTH_6.0MM_NO_TOP_RESIST ThingySticks       (7 29)                R0
+U$1      MC_PI_FACE_CONNECTORS_I2CTOP                                 JST-6-SH-1.0MM-TOP                     McPiFace           (71.7 35)             MR90
