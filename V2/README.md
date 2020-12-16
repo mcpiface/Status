@@ -14,7 +14,7 @@ The connection uses the McPi I2C 6 Pin JST SH connection (1:1 connection with th
 
 ![I2C Wiring](Images/I2C-Wiring.jpg)
 
-![I2C Wiring](Images/I2C-Wiring2.jpg)
+![I2C Wiring 2](Images/I2C-Wiring2.jpg)
 
 ![Basic Layout](Images/Basic.jpg)
 
